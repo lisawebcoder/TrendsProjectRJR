@@ -8,4 +8,5 @@ COPY . .
 
 EXPOSE 5500
 
-CMD [ "node", "start" ]
+CMD [ "npm", "install" ]
+CMD [ "npm", "start" ]
