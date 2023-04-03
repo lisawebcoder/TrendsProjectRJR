@@ -4,6 +4,8 @@ WORKDIR /usr/api
 
 COPY package*.json ./
 
+COPY node_modules/ ./
+
 COPY . .
 
 EXPOSE 5500
